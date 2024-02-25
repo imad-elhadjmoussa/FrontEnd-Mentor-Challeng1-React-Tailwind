@@ -29,12 +29,13 @@ export const ItemsSection = () => {
         }
     ]
     return (
-        <div>
+        <div className='p-16 md:p-20'>
             {
                 items.map((ele) => {
                     return (
                         <Card
                             key={ele.id}
+                            id={ele.id}
                             img={ele.img}
                             header={ele.header}
                             text={ele.text}
