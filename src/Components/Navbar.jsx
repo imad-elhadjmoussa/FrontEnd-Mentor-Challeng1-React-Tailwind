@@ -40,6 +40,7 @@ export const Navbar = () => {
                 variants={boxVarition}
                 initial='hidden'
                 animate='visible'
+                
             >
                 Try It for Free
             </motion.button>

@@ -82,7 +82,17 @@ export const Hero = () => {
                 </motion.p>
                 <motion.button
                     variants={btnVarition}
-                    className='py-3 px-14 mb-14 cursor-pointer bg-pink rounded-full font-bold text-white'
+                    className='py-3 h-14 px-14 mb-14 cursor-pointer bg-pink rounded-full font-bold text-white'
+                    whileHover={
+                        {
+                            backgroundColor:'white',
+                            color:'#FE52C0',
+                            border:'3px solid #FE52C0',
+                            transition:{
+                                duration:0.25,
+                            }
+                        }
+                    }
                 >
                     Get Started For Free
                 </motion.button>
