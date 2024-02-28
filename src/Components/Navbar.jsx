@@ -1,3 +1,4 @@
+import { hover } from '@testing-library/user-event/dist/hover'
 import logo from './../huddle-landing-page-with-alternating-feature-blocks-master/images/logo.svg'
 import { motion } from 'framer-motion'
 

@@ -59,7 +59,7 @@ export const Hero = () => {
 
     return (
         <motion.div
-            className=' pb-10 px-24 flex flex-col items-center justify-center w-full lg:flex-row   lg:px-10 '
+            className=' pb-10 md:px-24  flex flex-col items-center justify-center w-full lg:flex-row   lg:px-10 '
             variants={boxVarition}
             initial='hidden'
             animate='visible'

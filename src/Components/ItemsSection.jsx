@@ -29,7 +29,7 @@ export const ItemsSection = () => {
         }
     ]
     return (
-        <div className='p-16 mb-20 md:p-20'>
+        <div className='p-16 md:p-20'>
             {
                 items.map((ele) => {
                     return (
